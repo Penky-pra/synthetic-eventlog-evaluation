@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------------------
+# CLINICAL SOURCE DATA — NEVER COMMIT
+# The source export and every partition derived from it are pseudonymised
+# patient records held under institutional access restrictions.
+# These patterns are deliberately broad. Do not narrow them.
+# ---------------------------------------------------------------------------
+new_dataset.csv
+*source*.csv
+calibration_source.csv
+evaluation_source.csv
+*_source_*.csv
+
+# Sweep and run directories contain per-run copies of the source partitions
+runs/
+heldout_experiment/
+heldout_seed*/
+eval/
+
+# Any CSV at the repository root, unless force-added after inspection
+/*.csv
+
+# ---------------------------------------------------------------------------
+# Environment and build artefacts
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or the released synthetic event log, please cite the paper."
+title: "Evaluating synthetic healthcare event logs"
+authors:
+  - family-names: "Nath"
+    given-names: "Praveen Jagan"
+    affiliation: "University of Applied Sciences and Arts Dortmund"
+  - family-names: "Friedrich"
+    given-names: "Christoph M."
+    affiliation: "University of Applied Sciences and Arts Dortmund"
+  - family-names: "Pelka"
+    given-names: "Obioma"
+    affiliation: "University Hospital Essen"
+license: MIT
+repository-code: "https://github.com/Penky-pra/Temporal-Performance-Analysis"
+preferred-citation:
+  type: article
+  title: "Temporal Performance Analysis of Synthetic Healthcare Event Logs Using Process Mining"
+  authors:
+    - family-names: "Nath"
+      given-names: "Praveen Jagan"
+    - family-names: "Friedrich"
+      given-names: "Christoph M."
+    - family-names: "Pelka"
+      given-names: "Obioma"
+  year: 2026

@@ -1,0 +1,7 @@
+# Versions used to produce the results reported in the manuscript.
+# The pandas pin matters: timestamp resolution differs between major versions
+# and affects the conversion of event intervals to hours.
+numpy==1.24.4
+pandas==1.5.3
+scipy==1.9.1
+matplotlib==3.7.5
